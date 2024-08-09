@@ -1,13 +1,89 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Weather App</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    hello
-<script src="app.js"></script>    
-</body>
-</html>
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <div class="navContent1">
+         <div style="height: 30px;width: 130px; text-align: center;" class="outline"> <a href="$" style="font-size:large; font-weight:600;">Weather App</a></div>
+          <div style="height: 30px;width: 70px; text-align: center;" class="outline" ><a href="$" style="font-weight:600; font-size:large;">Home</a></div>
+          <div style="height: 30px;width: 150px; text-align: center;" class="outline"><a href="https://github.com/Rakshit412005/Weather-App" style="font-weight:600; font-size:large; ">About This App</a></div>
+        </div>
+        <div class="navContent2">
+          <input class="search-box" placeholder="Search any city" >
+          <button class="searchButton" style="margin-left: 20px;">Search</button>
+        </div>
+      
+        
+      </div>
+    </header>
+    <div class="content">
+      <div class="msg">Weather For Delhi</div>
+      <div class="cards">
+        <div class="card" id="card1">
+         <div class="section1">
+          <h4>Temperature</h4>
+         </div>
+         <div class="section2">
+          <p style="font-size: 2rem;font-weight: bold;" id="temp1">25°C</p>
+        </div>
+        <div class="section3">
+          <p id="temp2">Temperature is 21</p>
+          <p id="temp3">Min Temperature is 21</p>
+          <p id="temp4">Max Temperature is 21</p>
+        </div>
+        <div class="section4">
+          
+            <p>Sign up for free</p>
+        
+        </div>
+        </div>
+        <div class="card" id="card2">
+          <div class="section1">
+            <h4>Humidity Info</h4>
+           </div>
+           <div class="section2">
+            <p style="font-size: 2rem;font-weight: bold;" id="hum1">65%</p>
+          </div>
+          <div class="section3">
+            <p id="hum2">Wind Degree is 0</p>
+            <p id="hum3">Feels like 21</p>
+            <p id="hum4">Humidity is 68</p>
+          </div>
+          <div class="section4">
+            
+              <p>Get started</p>
+          
+          </div>
+        </div>
+        <div class="card" id="card3">
+          <div class="section1">
+            <h4>Wind Info</h4>
+           </div>
+           <div class="section2">
+            <p style="font-size: 2rem;font-weight: bold;" id="wind1">65%</p>
+          </div>
+          <div class="section3">
+            <p id="wind2">Wind speed is 0</p>
+            <p id="wind3">Sunrise time 21</p>
+            <p id="wind4">Sunset is 68</p>
+          </div>
+          <div class="section4">
+            
+              <p>Contact us</p>
+          
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+  </body>
+</html
