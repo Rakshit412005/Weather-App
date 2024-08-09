@@ -5,8 +5,12 @@
 p{
     margin-bottom: 0px;
 }
+body{
+    background-size: cover;
+    background-image: url("https://wallpaper.forfun.com/fetch/cc/cc60fcefa891fc4bc8bb88667cfafc6b.jpeg?w=1200&r=0.5625");
+}
 .navbar{
-    background-color: rgb(255, 194, 80);
+    /* background-color: rgb(255, 194, 80); */
 height: 60px;
 display: flex;
 justify-content: space-between;
@@ -31,16 +35,16 @@ align-items: center;
     
 }
 .searchButton{
-    border: 2px solid green;
+    border: 2px solid #0d6efd;
     width: 75px;
     border-radius: 5px;
-    color: green;
+    color: #0d6efd;
     
 
 }
 .searchButton:hover{
     background-color: green;
-    color: red;
+    color: yellow;
 
 }
 a{
@@ -51,15 +55,19 @@ a{
     border-radius: 3px; 
     border: none;
     text-align: center;
+    border: 2px solid #0d6efd;
+    /* background-color: #b5b5b5; */
+    
+    
 }
 .search-box:hover{
     border: 2px solid black;
 }
 .outline{
-    border: 1.5px solid transparent;
+    border: 2px solid transparent;
 }
 .outline:hover{
-    border:1.5px solid black;
+    border:2px solid black;
 
 }
 .content{
@@ -67,14 +75,16 @@ a{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #1b2349;
+    /* background-color: #1b2349; */
     height: 635px;
+    /* background-image: url("https://wallpaper.forfun.com/fetch/cc/cc60fcefa891fc4bc8bb88667cfafc6b.jpeg?w=1200&r=0.5625"); */
+    background-size: cover;
 }
 .msg{
     font-size: 2rem;
     font-weight: bold;
     margin-top: px;
-    color: white;
+    color: black;
 }
 .cards{
     display: flex;
@@ -95,7 +105,7 @@ a{
     width: 300px;
     margin-left: 20px;
     border: 1.5px solid black;
-    box-shadow:0px 0px 8px 2px #b5b5b5;
+    box-shadow:0px 0px 8px 2px black;
 }
 hr {
     width: 100%;        /* Width of the line */
@@ -159,3 +169,4 @@ hr {
 .section4 p{
     font-size: 1rem;
 }
+
