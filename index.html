@@ -13,13 +13,13 @@
 
       <div class="navbar">
         <div class="navContent1">
-         <div style="height: 30px;width: 130px; text-align: center;" class="outline"> <a href="$" style="font-size:large; font-weight:600;">Weather App</a></div>
-          <div style="height: 30px;width: 70px; text-align: center;" class="outline" ><a href="$" style="font-weight:600; font-size:large;">Home</a></div>
+         <!-- <div style="height: 30px;width: 130px; text-align: center;" class="outline"> <a href="#" style="font-size:large; font-weight:600;">Weather App</a></div>
+          <div style="height: 30px;width: 70px; text-align: center;" class="outline" ><a href="#" style="font-weight:600; font-size:large;">Home</a></div> -->
           <div style="height: 30px;width: 150px; text-align: center;" class="outline"><a href="https://github.com/Rakshit412005/Weather-App" style="font-weight:600; font-size:large; ">About This App</a></div>
         </div>
         <div class="navContent2">
-          <input class="search-box" placeholder="Search any city" >
-          <button class="searchButton" style="margin-left: 20px;">Search</button>
+          <input id="city" class="search-box" placeholder="Search any city" >
+          <button id="submit" class="searchButton" style="margin-left: 20px;" >Search</button>
         </div>
       
         
@@ -37,13 +37,13 @@
           <p style="font-size: 2rem;font-weight: bold;">°C</p>
         </div>
         <div class="section3">
-          <div>LastUpdated: <span style = " font-size:13px;" id="last_updated"></span></div>
-          <div>Temperature in °F <span id="temp_f"></span></div>
           <div>Day(1)orNight(0): <span id="is_day"></span></div>
+          <div>Temperature in °F <span id="temp_f"></span></div>
+          <div>LastUpdated: <span style = " font-size:13px;" id="last_updated"></span></div>
         </div>
         <div class="section4">
           
-            <p>Sign up for free</p>
+            <a href="https://www.linkedin.com/in/rakshit-kumar-1290a12b7/">My Linkdin Profile</a>
         
         </div>
         </div>
@@ -56,8 +56,8 @@
             <p style="font-size: 2rem;font-weight: bold;">%</p>
           </div>
           <div class="section3">
-            <div>Humidity is <span id="humidity"></span></div>
-            <p id="hum3">Feels like 21</p>
+            <div>Dew point is <span id="dewpoint_c"></span></div>
+            <div>Feels like(°C) <span id="feelslike_c"></span></div>
             <div>Heatindex is <span id="heatindex_c"></span></div>
           </div>
           <div class="section4">
@@ -76,19 +76,20 @@
             <p style="font-size: 2rem;font-weight: bold;"> km/hr</p>
           </div>
           <div class="section3">
-            <p id="wind2">Wind speed is 0</p>
-            <p id="wind3">Wind Degree is 0</p>
+            <div>Wind direction: <span id="wind_dir"></span></div>
+            <div>Wind degree is <span id="wind_degree"></span></div>
             <div>Localtime: <span id="localtime"></span></div>
           </div>
           <div class="section4">
             
-              <p>Contact us</p>
+              <a href="https://github.com/Rakshit412005">My Github Profile</a>
           
           </div>
         </div>
         </div>
         <div class="condition" style="position: relative;">
           <p id="status">Partly Cloudy</p>
+          
           
         </div>
       </div>
