@@ -34,13 +34,19 @@ const getWeather = (city)=>{
     .then((response) => {
 		console.log(response)
 		if(response.error){
+			err.classList.remove("hide");
 			err.innerHTML=response.error.message;
 			msg.classList.add("hide");
 			cards.classList.add("hide");
 			condition.classList.add("hide");
-			
-
 		}
+		else{
+			msg.classList.remove("hide");
+			cards.classList.remove("hide");
+			condition.classList.remove("hide");
+			err.classList.add("hide");
+		}
+		
 	
     name.innerHTML = response.location.name;
     localtime.innerHTML = response.location.localtime;

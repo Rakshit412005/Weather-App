@@ -11,7 +11,6 @@ body{
     background-image: url("https://wallpaper.forfun.com/fetch/cc/cc60fcefa891fc4bc8bb88667cfafc6b.jpeg?w=1200&r=0.5625");
 }
 .navbar{
-    /* background-color: rgb(255, 194, 80); */
 height: 60px;
 display: flex;
 justify-content: space-between;
@@ -20,28 +19,22 @@ align-items: center;
 }
 .navContent1{
     display: flex;
-    /* justify-content: ; */
     align-items: center;
     height: 40px;
     width :400px;
-    /* background-color: pink; */
 }
 .navContent2{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 40px;
-    width :350px;
-    /* background-color: pink; */
-    
+    width :350px;   
 }
 .searchButton{
     border: 2px solid #0d6efd;
     width: 75px;
     border-radius: 5px;
     color: #0d6efd;
-    
-
 }
 .searchButton:hover{
     background-color: green;
@@ -56,10 +49,7 @@ a{
     border-radius: 3px; 
     border: none;
     text-align: center;
-    border: 2px solid #0d6efd;
-    /* background-color: #b5b5b5; */
-    
-    
+    border: 2px solid #0d6efd;    
 }
 .search-box:hover{
     border: 2px solid black;
@@ -76,9 +66,7 @@ a{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    /* background-color: #1b2349; */
     height: 635px;
-    /* background-image: url("https://wallpaper.forfun.com/fetch/cc/cc60fcefa891fc4bc8bb88667cfafc6b.jpeg?w=1200&r=0.5625"); */
     background-size: cover;
 }
 .msg{
@@ -93,8 +81,6 @@ a{
     align-items: center;
     height: 400px;
     width: 100%;
-    /* background-color: blue; */
-    /* margin-bottom: 100px; */
 }
 .card{
     background-color: #e2e2e2;;
@@ -121,10 +107,9 @@ hr {
     align-items: center;
     height: 50px;
     width: 100%;
-    /* background-color: pink; */
+
     border-bottom:2px solid black;
     background-color: #0d6efd;
-    /* margin-bottom: 35px; */
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
 }
@@ -134,8 +119,6 @@ hr {
     align-items: center;
     height: 40px;
     width: 100%;
-    /* background-color: yellow; */
-    /* margin-top: 15px; */
 }
 .section3{
     display: flex;
@@ -144,7 +127,6 @@ hr {
     flex-direction: column;
     width: 200px;
     height: 70px;
-    /* background-color: red; */
 }
 .section3 p{
     margin: 0px;
@@ -157,10 +139,8 @@ hr {
     background-color: #0d6efd;
     height: 40px;
     width: 90%;
-    /* padding-top: 13px; */
     margin-bottom: 10px;
     text-align: center;
-    /* border: 2px solid black; */
     border-radius: 4px;
     cursor: pointer;
 }
@@ -173,7 +153,6 @@ hr {
 .condition{
     height: 150px;
     width: 200px;
-    /* background-image: url("//cdn.weatherapi.com/weather/64x64/day/116.png"); */
     background-size: cover;
     border: 3px solid black;
     background-color: #0d6efd;
@@ -181,8 +160,6 @@ hr {
     justify-content: center;
     font-weight: 500;
     margin-bottom: 20px;
-    /* margin-bottom: 70px; */
-
 }
 .hide{
     display: none;
