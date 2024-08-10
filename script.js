@@ -15,6 +15,9 @@ const status= document.querySelector("#status");
 const condition= document.querySelector(".condition");
 const submit = document.querySelector("#submit");
 const  city= document.querySelector("#city");
+const err=document.querySelector(".err");
+const msg=document.querySelector(".msg");
+const cards= document.querySelector(".cards");
 
 const data = null;
 const options = {
@@ -28,7 +31,16 @@ const getWeather = (city)=>{
 	name.innerHTML=city;
 	fetch('https://api.weatherapi.com/v1/current.json?key=5ebbc27a8439431e9f662525240408&q='+ city,options)
     .then(response => response.json())
-    .then((response) => {console.log(response)
+    .then((response) => {
+		console.log(response)
+		if(response.error){
+			err.innerHTML=response.error.message;
+			msg.classList.add("hide");
+			cards.classList.add("hide");
+			condition.classList.add("hide");
+			
+
+		}
 	
     name.innerHTML = response.location.name;
     localtime.innerHTML = response.location.localtime;
