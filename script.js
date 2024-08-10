@@ -7,6 +7,7 @@ const localtime = document.querySelector("#localtime");
 const heatindex_c = document.querySelector("#heatindex_c");
 const wind_kph = document.querySelector("#wind_kph");
 const last_updated= document.querySelector("#last_updated");
+const data = null;
 const options = {
 	method: 'GET',
 	headers: {
@@ -14,7 +15,7 @@ const options = {
 		'x-rapidapi-host': 'weather-api138.p.rapidapi.com'
 	}
 };
-fetch('http://api.weatherapi.com/v1/current.json?key=5ebbc27a8439431e9f662525240408&q=london&aqi=no',options)
+fetch('https://api.weatherapi.com/v1/current.json?key=5ebbc27a8439431e9f662525240408&q=london&aqi=no',options)
 .then(response => response.json())
 .then((response) => {console.log(response)
 	
