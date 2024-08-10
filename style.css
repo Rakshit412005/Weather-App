@@ -93,7 +93,7 @@ a{
     height: 400px;
     width: 100%;
     /* background-color: blue; */
-    margin-bottom: 100px;
+    /* margin-bottom: 100px; */
 }
 .card{
     background-color: #e2e2e2;;
@@ -168,5 +168,18 @@ hr {
 }
 .section4 p{
     font-size: 1rem;
+}
+.condition{
+    height: 150px;
+    width: 200px;
+    background-image: url("//cdn.weatherapi.com/weather/64x64/day/116.png");
+    background-size: cover;
+    border: 3px solid black;
+    background-color: #0d6efd;
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+    /* margin-bottom: 70px; */
+
 }
 
