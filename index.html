@@ -26,19 +26,20 @@
       </div>
     </header>
     <div class="content">
-      <div class="msg">Weather For Delhi</div>
+      <div class="msg">Weather For <span id="name"></span></div>
       <div class="cards">
         <div class="card" id="card1">
          <div class="section1">
           <h4>Temperature</h4>
          </div>
          <div class="section2">
-          <p style="font-size: 2rem;font-weight: bold;" id="temp1">25°C</p>
+          <div><span id="temp_c" style="font-size: 2rem;font-weight: bold;"></span></div>
+          <p style="font-size: 2rem;font-weight: bold;">°C</p>
         </div>
         <div class="section3">
-          <p id="temp2">Temperature is 21</p>
-          <p id="temp3">Min Temperature is 21</p>
-          <p id="temp4">Max Temperature is 21</p>
+          <div>LastUpdated: <span style = " font-size:13px;" id="last_updated"></span></div>
+          <div>Temperature in °F <span id="temp_f"></span></div>
+          <div>Day(1)orNight(0): <span id="is_day"></span></div>
         </div>
         <div class="section4">
           
@@ -51,12 +52,13 @@
             <h4>Humidity Info</h4>
            </div>
            <div class="section2">
-            <p style="font-size: 2rem;font-weight: bold;" id="hum1">65%</p>
+            <p style="font-size: 2rem;font-weight: bold;" id="humidity">65</p>
+            <p style="font-size: 2rem;font-weight: bold;">%</p>
           </div>
           <div class="section3">
-            <p id="hum2">Humidity is 68</p>
+            <div>Humidity is <span id="humidity"></span></div>
             <p id="hum3">Feels like 21</p>
-            <p id="hum4">Humidity is 68</p>
+            <div>Heatindex is <span id="heatindex_c"></span></div>
           </div>
           <div class="section4">
             
@@ -69,12 +71,14 @@
             <h4>Wind Info</h4>
            </div>
            <div class="section2">
-            <p style="font-size: 2rem;font-weight: bold;" id="wind1">0 km/hr</p>
+            <p style="font-size: 2rem;font-weight: bold;" id="wind_kph">0</p>
+            &nbsp;
+            <p style="font-size: 2rem;font-weight: bold;"> km/hr</p>
           </div>
           <div class="section3">
             <p id="wind2">Wind speed is 0</p>
             <p id="wind3">Wind Degree is 0</p>
-            <p id="wind4">Localtime: 2024-08-10 06:37</p>
+            <div>Localtime: <span id="localtime"></span></div>
           </div>
           <div class="section4">
             
@@ -83,8 +87,9 @@
           </div>
         </div>
         </div>
-        <div class="condition">
+        <div class="condition" style="position: relative;">
           <p id="status">Partly Cloudy</p>
+          
         </div>
       </div>
     </div>
