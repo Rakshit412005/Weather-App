@@ -70,9 +70,6 @@ Contributions are welcome! To contribute:
    ```
 4. Open a pull request.
 
-## License 📄
-
-This project is licensed under the [MIT License](LICENSE).
 
 ## Acknowledgments 🙌
 
