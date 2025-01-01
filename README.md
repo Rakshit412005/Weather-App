@@ -87,4 +87,4 @@ Contributions are welcome! To contribute:
 
 ```
 
-Feel free to customize the placeholders and add your screenshots or any additional details! 😊
+
